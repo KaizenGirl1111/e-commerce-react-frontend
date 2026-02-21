@@ -1,14 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import reactLogo from '/assets/react.svg'
+import heroLeft from '/assets/hero_left.png'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/Header/Header'
+import Navbar from './components/Header/Navbar'
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <Navbar/>
+      {/* <img src={reactLogo} alt="empty"/>
+      <img src={heroLeft} alt="empty"/> */}
     </>
   )
 }
