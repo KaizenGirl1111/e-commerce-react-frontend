@@ -1,10 +1,10 @@
 import heroLeft from '../assets/hero_left.png'
-import reactLogo from "/assets/react.svg"
+import heroRight from '../assets/hero_right.png'
 function Hero(){
 return (
-    <div className="flex">
-         <img src={reactLogo} alt="empty"/>
-            <img src={heroLeft} alt="empty"/>
+    <div className="flex gap-5 mt-2 mb-20">
+            <img src={heroLeft} alt="empty" className=" rounded-lg flex-1 h-[400px] w-[400px]"/>
+            <img src={heroRight} alt="empty" className="rounded-lg h-[400px] w-[400px]"/>
     </div>
 )
 }

@@ -2,3 +2,6 @@ https://pim.ritukumar.com/pim/pimresponse.php?service=category&store=1&url_key=c
 
 https://consumer.whatmore.live/v2/events/65186660595?status=live,upcoming&is_active=true
 
+
+
+https://dribbble.com/shots/26719027-Cosmetics-E-Commerce-Home-Page
