@@ -1,7 +1,3 @@
-import { useState } from 'react'
-import reactLogo from '/assets/react.svg'
-import heroLeft from '/assets/hero_left.png'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Header/Navbar'
 import Hero from './components/Header/Hero'
@@ -11,6 +7,8 @@ import ProductRail from './components/ProductRail/ProductRail'
 import Banner from './components/Banner/Banner'
 import ImageBanner from './components/ImageBanner/ImageBanner'
 import BestSellerRail from './components/BestSellerRail/BestSellerRail'
+import OfferCard from './components/OfferCard/OfferCard'
+import Brands from './components/Brands/Brands'
 function App() {
 
   return (
@@ -25,6 +23,9 @@ function App() {
       <ProductRail category="Best seller" start={5} end={8}/>
       <ImageBanner/>
       <BestSellerRail/>
+      <OfferCard/>
+      <ProductRail category="Best seller" start={22} end={25}/>
+      <Brands/>
       </div>
     </>
   )
