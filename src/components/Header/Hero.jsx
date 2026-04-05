@@ -1,5 +1,5 @@
-import heroLeft from '../assets/hero_left.png'
-import heroRight from '../assets/hero_right.png'
+import heroLeft from '/assets/hero_left.jpg'
+import heroRight from '/assets/hero_right.webp'
 function Hero(){
 return (
     <div className="flex gap-5 mt-2 mb-20">

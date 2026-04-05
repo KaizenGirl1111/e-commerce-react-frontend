@@ -17,6 +17,7 @@ function App() {
 
   return (
     <>
+    <div className="root">
       <Navbar/>
       <Hero/>
       <div className="flex flex-col">
@@ -33,8 +34,9 @@ function App() {
       <BestSalesOfWeek start={30} end={33}/>
       <BlogsRail/>
       </div>
+       </div>
       <Footer/>
-    </>
+   </>
   )
 }
 
