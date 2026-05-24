@@ -7,7 +7,8 @@ function Navbar()
 
 {
    const navigate= useNavigate()
-   return <div className="mt-0 mr-0 w-[100%] header flex flex-col gap-4 items-center pb-2 border-b-1 border-gray-400">
+   return (
+   <div className="mt-0 mr-0 w-[100%] header flex flex-col gap-4 items-center pb-2 border-b-1 border-gray-400">
       <div className="mt-0 w-[100%] search-box flex flex-nowrap justify-between">
       <div className="flex-0 text-yellow-400 font-bold text-md bg-purple-800 px-8 py-1 rounded-full">RITU</div>
       <input type="text" id="search-field" name="search-field" placeholder="Search" className="basis-1/2 border-1 border-purple-800 py-1 pr-2 pl-1 rounded-sm  placeholder:text-gray-400" onChange={()=>{}}/>
@@ -19,7 +20,7 @@ Login/Signup</button>
       <div class="flex items-center gap-4">
           <div class="text-purple-800 text-lg">      <FaShoppingCart/>
 </div>
-          <button class="flex gap-2 items-center border border-purple-600 text-purple-800 px-4 py-1.5 rounded-lg text-md hover:bg-purple-50" onClick={navigate("/sign-up")}>
+          <button className="flex gap-2 items-center border border-purple-600 text-purple-800 px-4 py-1.5 rounded-lg text-md hover:bg-purple-50">
             <FaUser /> Login / Signup
           </button>
         </div>
@@ -37,6 +38,7 @@ Login/Signup</button>
       </div>
       </div>
    </div>
+   )
 }
 
 export default Navbar;
